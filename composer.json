@@ -1,5 +1,5 @@
 {
-    "name": "eadesignro/module-eacore",
+    "name": "vaxltd/module-eacore",
     "description": "The module with the menu and other features needed by other modules developed by EaDesign",
     "type": "magento2-module",
     "version": "0.3.0",
@@ -20,9 +20,10 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "php": "^7.2",
-        "magento/magento2-base": "^2.3",
+        "php": "~7.2||~7.3.0||~7.4.0",
+        "magento/magento2-base": "*",
         "magento/module-backend": "*"
     }
 }
